@@ -20,7 +20,7 @@ function getWeather() {
 function displayWeather(data) {
     $('#city-name').text(`Weather in ${data.name}`);
     $('#date').text(moment().format('MMMM Do YYYY, h:mm:ss a'));
-    $('#temperature').text(`🌡️ ${data.main.temp}°C`);
+    $('#temperature').text(` ${data.main.temp}°C`);
     $('#description').text(`☁️ ${data.weather[0].description}`);
     $('#wind').text(`🌬️ Wind: ${data.wind.speed} m/s`);
     $('#weather-icon').attr('src', `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`);
