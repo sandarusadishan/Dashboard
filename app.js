@@ -59,7 +59,7 @@ function renderChart() {
                 data: [12, 9, 3, 5, 12, 17,8],
                 backgroundColor: ['#4caf50', '#8bc34a', '#cddc39', '#ffeb3b', '#ffc107', '#ff9800', '#8bc34a'],
                 borderColor: '#24762b',
-                borderWidth: 1
+                borderWidth: 3
             }]
         },
         options: {
